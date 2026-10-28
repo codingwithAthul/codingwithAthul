@@ -4,7 +4,7 @@
 
 I'm best where the data is messy, the deadline is real, and somebody needs an answer they can defend afterwards.
 
-[Portfolio](https://codingwithathul.github.io) · [CV (PDF)](https://codingwithathul.github.io/assets/Athul_Sasidharan_Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/athul-ash-sasidharan-48a1ba195/) · [Email](mailto:athulchira@gmail.com)
+[Portfolio](https://codingwithathul.github.io) · [CV (PDF)](https://codingwithathul.github.io/assets/Athul_Sasidharan_Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/athul-sasidharan-48a1ba195/) · [Email](mailto:athulchira@gmail.com)
 
 > Open to data analyst, business analyst and data science roles across Canada.
 
