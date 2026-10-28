@@ -1,23 +1,12 @@
 # Athul Sasidharan
 
-**Data analyst and data scientist in Vancouver.** UBC Master of Data Science (2026), with three years across banking data engineering, consulting and clinical analytics.
-
-I'm best where the data is messy, the deadline is real, and somebody needs an answer they can defend afterwards.
+**Data Analyst | Data Scientist | Business Analyst** UBC Master of Data Science (2026), with three years across banking data engineering, consulting and clinical analytics.
 
 [Portfolio](https://codingwithathul.github.io) · [CV (PDF)](https://codingwithathul.github.io/assets/Athul_Sasidharan_Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/athul-sasidharan-48a1ba195/) · [Email](mailto:athulchira@gmail.com)
 
-> Open to data analyst, business analyst and data science roles across Canada.
-
-**Ask me about**
-
-- Grounding LLM answers in evidence, and scoring how far to trust them
-- Evaluating a retrieval system instead of eyeballing it
-- Taking a model from a notebook to a live endpoint
-- Building pipelines where a wrong number is a regulatory problem
-
 ---
 
-## Selected work
+## Projects
 
 ### 1. CodeIQ: ask a 100K-line codebase questions in plain English
 
