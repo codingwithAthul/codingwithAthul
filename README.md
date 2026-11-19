@@ -8,7 +8,21 @@
 
 ## Projects
 
-### 1. CodeIQ: ask a 100K-line codebase questions in plain English
+### 1. Store Insights: retail analytics for Shoppers Drug Mart in Vancouver
+
+<a href="https://codingwithathul.github.io/Retail-dashboard-analytics/">
+  <img src="https://github.com/codingwithAthul/Retail-dashboard-analytics/raw/main/docs/screenshots/sales.png" width="640" alt="Store Insights sales tab: monthly trend against last year, category mix and best sellers for one store">
+</a>
+
+- **Problem.** Range, space and service decisions for a store depend on who lives nearby and what the neighbours already sell, and that picture is usually spread across a census site, a map and a sales report.
+- **Approach.** A public dashboard for 31 Shoppers Drug Mart stores in Vancouver. Each store gets its 2021 census against Metro Vancouver, the pharmacies and supermarkets within a 10-minute walk, and a compete / differentiate / avoid call per category.
+- **Result.** Live on GitHub Pages with store comparison, a network overlap view and a printable one-page brief per store. Tested on desktop and phone in CI, with an accessibility score of 100 enforced on every page.
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**[Live dashboard](https://codingwithathul.github.io/Retail-dashboard-analytics/)** · **[Code](https://github.com/codingwithAthul/Retail-dashboard-analytics)** · **[Research and sources](https://github.com/codingwithAthul/Retail-dashboard-analytics/tree/main/Research)**
+
+### 2. CodeIQ: ask a 100K-line codebase questions in plain English
 
 <a href="https://codeiq-source-code-knowledge-graph-latest.onrender.com/">
   <img src="https://github.com/goudmani/codeiq_source_code_knowledge_graph/raw/main/img/demo.gif" width="640" alt="Demo of CodeIQ answering a plain-English question about a React Native codebase, with cited file paths">
@@ -22,7 +36,7 @@
 
 **[Live app](https://codeiq-source-code-knowledge-graph-latest.onrender.com/)** · **[Code](https://github.com/goudmani/codeiq_source_code_knowledge_graph)** · **[Evaluation write-up](https://github.com/goudmani/codeiq_source_code_knowledge_graph#evaluation-cost--reliability-testing)**
 
-### 2. Vancouver Parks Dashboard: find a park by what you actually need
+### 3. Vancouver Parks Dashboard: find a park by what you actually need
 
 <a href="https://019c91e8-5952-d69b-140e-530221568f2d.share.connect.posit.cloud/">
   <img src="https://github.com/UBC-MDS/DSCI-532_2026_3_vancouver_park_dashboard/raw/main/img/demo.gif" width="640" alt="Demo of the Vancouver Parks Dashboard filtering parks by neighbourhood, size and facilities on a map">
@@ -36,7 +50,7 @@
 
 **[Live app](https://019c91e8-5952-d69b-140e-530221568f2d.share.connect.posit.cloud/)** · **[Code](https://github.com/UBC-MDS/DSCI-532_2026_3_vancouver_park_dashboard)**
 
-### 3. Smart product review search: answers that cite their sources
+### 4. Smart product review search: answers that cite their sources
 
 - **Problem.** Thousands of product reviews hold the answers to buying questions, and nobody can read them all.
 - **Approach.** Hybrid retrieval over 15,972 cleaned Amazon software reviews: BM25 keyword search and MiniLM embeddings in FAISS, fused with reciprocal rank fusion. A Groq-hosted Llama 3.3 70B answers from the retrieved reviews and cites the ones it used.
@@ -46,7 +60,7 @@
 
 **[Code](https://github.com/codingwithAthul/Information_Rag_Retrieval_Project)**
 
-### 4. Rainfall prediction API: a model that answers requests
+### 5. Rainfall prediction API: a model that answers requests
 
 - **Problem.** A trained model sitting in a `.joblib` file has not helped anyone yet.
 - **Approach.** A random forest (100 trees) trained on an AWS EMR/Spark cluster, then served through FastAPI on a 1 GB EC2 `t3a.micro`. The model loads once at startup rather than per request, and Pydantic validates every 25-feature payload before it reaches the model.
@@ -56,7 +70,7 @@
 
 **[Code](https://github.com/codingwithAthul/rainfall-prediction-aws-deployment)**
 
-### 5. geospatial-toolkit: a tested, documented Python package
+### 6. geospatial-toolkit: a tested, documented Python package
 
 - **Problem.** The same coordinate and distance helpers get rewritten by hand in every project.
 - **Approach.** A lightweight package with four functions: `standardize_latlong`, `haversine_distance`, `point_to_city` (point-in-polygon city lookup) and `get_antipode` (with optional reverse geocoding).
@@ -81,7 +95,7 @@ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://
 | LLM and retrieval | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=flat-square) ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square) ![BM25](https://img.shields.io/badge/BM25-555555?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-6E40C9?style=flat-square) ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square) |
 | Pipelines and databases | ![Informatica](https://img.shields.io/badge/Informatica-FF4D00?style=flat-square) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white) ![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
 | Reporting and delivery | ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Shiny](https://img.shields.io/badge/Shiny-75AADB?style=flat-square) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Quarto](https://img.shields.io/badge/Quarto-39729E?style=flat-square&logo=quarto&logoColor=white) ![ggplot2](https://img.shields.io/badge/ggplot2-1E5B8C?style=flat-square) |
-| Workflow | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) |
+| Workflow | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) |
 
 ---
 
